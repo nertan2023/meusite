@@ -1,0 +1,128 @@
+/* Estilo para o cabeçalho com o menu */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Arial, sans-serif; /* Fonte sem serifa */
+}
+
+/* Estilo para a lista de navegação horizontal */
+nav ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centralizar o texto do menu */
+    align-items: center; /* Centralizar verticalmente o texto do menu */
+    height: 50px;
+}
+
+nav ul li {
+    margin: 0 60px; /* Aumentar a margem entre os títulos */
+}
+
+/* Estilo para os links no menu */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Fonte sem serifa */
+}
+
+/* Estilizar os links quando passar o mouse sobre eles */
+nav a:hover {
+    text-decoration: underline;
+}
+/* Estilo para a lista de navegação horizontal */
+nav ul li {
+    margin: 0 40px; /* Aumentar a margem entre os títulos */
+}
+
+/* Estilizar a seção "sobre-mim" */
+#sobre-mim {
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+#sobre-mim img {
+    display: block;
+    margin: 40px auto; /* Centralizar a imagem e afastá-la do menu */
+}
+
+#sobre-mim p {
+    font-family: Arial, sans-serif; /* Fonte em Arial */
+    text-align: justify; /* Texto justificado */
+    width: 400px; /* Largura do parágrafo */
+    margin: 20px auto; /* Centralizar o parágrafo */
+}
+/* Estilo para o conteúdo da página "FORMAÇÃO" */
+#formacao {
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+#formacao h2 {
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center; /* Centralizar o texto do título */
+}
+
+#formacao ul {
+    list-style: none;
+    text-align: center; /* Centralizar o texto das listas */
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    margin-left: 0; /* Remover o recuo padrão da lista */
+    padding-left: 0; /* Remover o preenchimento padrão da lista */
+}
+
+#formacao ul li {
+    margin: 10px 0;
+    text-align: center; /* Centralizar o texto dentro das listas */
+}
+/* Estilo para o conteúdo da página "TRABALHOS" */
+#trabalhos {
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+.trabalho {
+    margin: 20px; /* Espaçamento entre os trabalhos */
+    text-align: center; /* Centralizar o conteúdo dos trabalhos */
+}
+
+.trabalho h2 {
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.trabalho img {
+    width: 600px; /* Largura das imagens */
+    height: auto; /* Manter a proporção da imagem */
+}
+
+.trabalho p {
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    margin: 10px 0;
+}
+/* Estilo para o conteúdo da página "CONTATOS" */
+#contatos {
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+#contatos h2 {
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    margin-top: 20px;
+}
+
+#contatos ul {
+    list-style: none;
+    text-align: center; /* Centralizar o texto das listas */
+    font-family: Arial, sans-serif; /* Fonte em Arial (sem serifa) */
+    padding: 0;
+}
+
+#contatos li {
+    margin: 10px 0; /* Espaçamento entre os itens da lista */
+}
+
+
