@@ -39,6 +39,11 @@ nav ul li {
     margin: 0 40px; /* Aumentar a margem entre os títulos */
 }
 
+.title {
+    text-align: center;
+    margin-top: 50px; /* Ajuste o valor conforme necessário para posicionar o título verticalmente */
+}
+
 /* Estilizar a seção "sobre-mim" */
 #sobre-mim {
     text-align: center; /* Centralizar o conteúdo */
@@ -124,5 +129,7 @@ nav ul li {
 #contatos li {
     margin: 10px 0; /* Espaçamento entre os itens da lista */
 }
+
+
 
 
